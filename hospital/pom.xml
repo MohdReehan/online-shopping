@@ -7,7 +7,36 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>hospital Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <dependencies>
+
+    <dependencies>
+    <!--SPRINGMVC -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>5.1.5.RELEASE</version>
+</dependency>
+    
+    <!--SPRING CONTEXT-->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>5.1.5.RELEASE</version>
+</dependency>
+    
+    <!--SPRING AOP -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>5.1.5.RELEASE</version>
+</dependency>
+    
+  <!--WEB SPRING -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-web</artifactId>
+    <version>5.1.5.RELEASE</version>
+</dependency>
+  
    
    <!-- SPRING -->
 <dependency>
@@ -30,3 +59,4 @@
     <finalName>hospital</finalName>
   </build>
 </project>
+  
